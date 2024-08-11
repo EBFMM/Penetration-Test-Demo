@@ -3,7 +3,7 @@
 ## Objective
 [Brief Objective - Remove this afterwards]
 
-The Detection Lab project aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
+The objective of this penetration test demo is to demonstrate the exploitation of a SMB (Server Message Block) vulnerability on the target system. The focus is to identify and exploit a weaknesses in the SMB service, gaining unauthorized access, and successfully exfiltrating sensitive data. This demo highlights the critical risks associated with improperly secured network services and underscores the importance of robust security measures in protecting sensitive information from potential threats.
 
 ### Skills Learned
 [Bullet Points - Remove this afterwards]
