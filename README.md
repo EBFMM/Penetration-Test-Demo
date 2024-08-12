@@ -18,6 +18,8 @@ The objective of this penetration test demo is to demonstrate the exploitation o
 - John the Ripper tool for password cracking.
 
 ## OpenVAS Network Scan
+![image](https://github.com/user-attachments/assets/59616d05-ff49-4b3d-8bc8-0ce9ccb57276)
+
 
 ## Steps
 drag & drop screenshots here or use imgur and reference them using imgsrc
