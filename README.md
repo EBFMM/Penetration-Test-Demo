@@ -19,7 +19,8 @@ The objective of this penetration test demo is to demonstrate the exploitation o
 
 ## Demo
 
-[![Penetration-Test-Demo](https://img.youtube.com/vi/5xt5gEPTnqA/hqdefault.jpg)](https://www.youtube.com/watch?v=5xt5gEPTnqA&t=19s)
+[![Penetration-Test-Demo](https://example.com/your-thumbnail-with-play-button.jpg)](https://www.youtube.com/watch?v=5xt5gEPTnqA&t=19s)
+
 
 
 ## OpenVAS Network Scan
