@@ -17,6 +17,8 @@ The objective of this penetration test demo is to demonstrate the exploitation o
 - Metasploit framework, utilized for conducting penetration testing, by running an exploit module against the target machine to simulate a real-world attack.
 - John the Ripper tool for password cracking.
 
+## Demo
+
 ## OpenVAS Network Scan
 ![image](https://github.com/user-attachments/assets/59616d05-ff49-4b3d-8bc8-0ce9ccb57276)
 ![image](https://github.com/user-attachments/assets/88e27d05-f4c4-4ca7-a681-eb4ee06397e6)
@@ -24,13 +26,8 @@ The objective of this penetration test demo is to demonstrate the exploitation o
 
 ## Vulnerability
 
-Every screenshot should have some text explaining what the screenshot is about.
+The specific vulnerability identified as ‘Samba username map script Command Execution’ was leveraged to exploit the target system remotely. This vulnerability results from a flaw in the handling of the username map script within Samba, which allows the unauthorized execution of arbitrary commands on the victim system. During the assessment, I utilized a Metasploit exploit module specifically designed for this vulnerability; this module “exploits a command execution vulnerability in Samba versions 3.0.20 through 3.0.25rc3 when using the non-default ‘username map script’ configuration option” (Rapid7, 2018). By using the Metasploit ‘multi/samba/usermap_script’ exploit module, a crafted payload was sent to the vulnerable Samba service, which executed a malicious shell command. Through this exploit, I was able to bypass existing authentication mechanisms and achieve root access on the victim machine.
 
-Example below.
-
-## Time of intrusion and connection to victim system
-
-![image](https://github.com/user-attachments/assets/218898fe-5708-45d4-a7c2-cf1f18649bcd)
 
 ## Data Exfiltration 
 
@@ -41,3 +38,8 @@ The extraction of sensitive company data, including user hashes and plaintext pa
 ## Recommendations
 
 To remediate the vulnerability exploited on the remote system, several key security controls should be implemented. Firstly, it's essential to apply necessary patches and update Samba software to its latest version. Then, strict permissions and access controls must be configured for the ‘user_map script’ to reduce unauthorized access. Following, avoid running Samba with root permissions to reduce attack surface and limit access on the system. Additionally, the implementation of multi-factor authentication on sensitive systems improves the company’s overall security posture as “it operates on the principle that even if one credential becomes compromised, unauthorized users will be unable to meet the second or third form of required authentication” (Secoda, 2024). These measures together strengthen defenses against this exploit ensuring the protection of data against unauthorized access and security breaches.
+
+## References
+
+[1]“Multi-factor Authentication (MFA) is a security protocol that enhances account security by requiring multiple forms of verification before granting access,” www.secoda.co. https://www.secoda.co/glossary/what-is-multi-factor-authentication
+[2]“Samba ‘username map script’ Command Execution,” Rapid7. https://www.rapid7.com/db/modules/exploit/multi/samba/usermap_script/
