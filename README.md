@@ -12,11 +12,10 @@ The objective of this penetration test demo is to demonstrate the exploitation o
 - Enhanced skills in assessing network services and identifying critical security vulnerabilities.
 
 ### Tools Used
-[Bullet Points - Remove this afterwards]
 
 - OpenVAS to provide a detailed report on potential threats and known vulnerabilities within the network.
 - Metasploit framework, utilized for conducting penetration testing, by running an exploit module against the target machine to simulate a real-world attack.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+- John the Ripper tool for password cracking.
 
 ## OpenVAS Network Scan
 
