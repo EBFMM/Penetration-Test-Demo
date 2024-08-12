@@ -30,6 +30,9 @@ Example below.
 
 ## Time of intrusion and connection to victim system
 
+![image](https://github.com/user-attachments/assets/d503ba1e-8bd7-4d66-8fc4-4d9104e9aba4)
+The extraction of sensitive company data, including user hashes and plaintext passwords, signifies a severe data breach. Breaches can lead to unauthorized access to other systems. A data breach severely damages the company's reputation due to client/stakeholders' loss of confidence in the company to protect their sensitive data resulting in potential loss of business. If access to proprietary data is compromised, the company is likely to suffer from intellectual property theft, resulting in significant financial losses. Safeguarding proprietary data is essential for maintaining the company's financial well-being, while also for preserving trust among stakeholders/clients.
+
 ## Data Exfiltration 
 
 ## Recommendations
