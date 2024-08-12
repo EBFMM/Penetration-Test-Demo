@@ -14,7 +14,7 @@ The objective of this penetration test demo is to demonstrate the exploitation o
 ### Tools Used
 [Bullet Points - Remove this afterwards]
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
+- OpenVAS to provide a detailed report on potential threats and known vulnerabilities within the network.
 - Network analysis tools (such as Wireshark) for capturing and examining network traffic.
 - Telemetry generation tools to create realistic network traffic and attack scenarios.
 
