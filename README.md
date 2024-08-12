@@ -43,4 +43,5 @@ To remediate the vulnerability exploited on the remote system, several key secur
 ## References
 
 [1]“Multi-factor Authentication (MFA) is a security protocol that enhances account security by requiring multiple forms of verification before granting access,” www.secoda.co. https://www.secoda.co/glossary/what-is-multi-factor-authentication
+
 [2]“Samba ‘username map script’ Command Execution,” Rapid7. https://www.rapid7.com/db/modules/exploit/multi/samba/usermap_script/
