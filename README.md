@@ -6,9 +6,9 @@ The objective of this penetration test demo is to demonstrate the exploitation o
 
 ### Skills Learned
 
-- Advanced understanding of SIEM concepts and practical application.
+- Advanced understanding of network service vulnerabilities and their impact on system security.
 - Proficiency in utilizing Metasploit for exploiting SMB vulnerabilities and gaining system access.
-- Ability to generate and recognize attack signatures and patterns.
+- Ability to execute comprehensive penetration tests and simulate real-world attacks on network services.
 - Enhanced skills in assessing network services and identifying critical security vulnerabilities.
 
 ### Tools Used
