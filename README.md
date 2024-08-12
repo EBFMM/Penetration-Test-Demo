@@ -15,7 +15,7 @@ The objective of this penetration test demo is to demonstrate the exploitation o
 [Bullet Points - Remove this afterwards]
 
 - OpenVAS to provide a detailed report on potential threats and known vulnerabilities within the network.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
+- Metasploit framework, utilized for conducting penetration testing, by running an exploit module against the target machine to simulate a real-world attack.
 - Telemetry generation tools to create realistic network traffic and attack scenarios.
 
 ## OpenVAS Network Scan
