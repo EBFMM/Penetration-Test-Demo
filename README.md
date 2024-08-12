@@ -33,3 +33,5 @@ Example below.
 ## Data Exfiltration 
 
 ## Recommendations
+
+To remediate the vulnerability exploited on the remote system, several key security controls should be implemented. Firstly, it's essential to apply necessary patches and update Samba software to its latest version. Then, strict permissions and access controls must be configured for the ‘user_map script’ to reduce unauthorized access. Following, avoid running Samba with root permissions to reduce attack surface and limit access on the system. Additionally, the implementation of multi-factor authentication on sensitive systems improves the company’s overall security posture as “it operates on the principle that even if one credential becomes compromised, unauthorized users will be unable to meet the second or third form of required authentication” (Secoda, 2024). These measures together strengthen defenses against this exploit ensuring the protection of data against unauthorized access and security breaches.
