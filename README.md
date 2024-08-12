@@ -18,6 +18,8 @@ The objective of this penetration test demo is to demonstrate the exploitation o
 - Network analysis tools (such as Wireshark) for capturing and examining network traffic.
 - Telemetry generation tools to create realistic network traffic and attack scenarios.
 
+## OpenVAS Network Scan
+
 ## Steps
 drag & drop screenshots here or use imgur and reference them using imgsrc
 
