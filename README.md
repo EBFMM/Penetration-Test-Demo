@@ -30,7 +30,7 @@ Example below.
 
 ## Time of intrusion and connection to victim system
 
-
+![image](https://github.com/user-attachments/assets/218898fe-5708-45d4-a7c2-cf1f18649bcd)
 
 ## Data Exfiltration 
 
