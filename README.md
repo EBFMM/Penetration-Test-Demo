@@ -19,7 +19,8 @@ The objective of this penetration test demo is to demonstrate the exploitation o
 
 ## OpenVAS Network Scan
 ![image](https://github.com/user-attachments/assets/59616d05-ff49-4b3d-8bc8-0ce9ccb57276)
-
+![image](https://github.com/user-attachments/assets/88e27d05-f4c4-4ca7-a681-eb4ee06397e6)
+![image](https://github.com/user-attachments/assets/40b0ad0b-c2d2-4873-86cf-4d57ee119925)
 
 ## Steps
 drag & drop screenshots here or use imgur and reference them using imgsrc
